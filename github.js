@@ -1,11 +1,9 @@
 function steve()
 {
-    let btn = document.getElementById('audio').innerHTML = "<audio src = 'https://www.youtube.com/watch?v=y4CN2ZBgwPI'></audio>"
     let div = document.getElementById("test")
     let p = document.createElement("p");
-    p.innerText = "Nathan!";
+    p.innerText = "Moto Moto";
     div.appendChild(p);
     let sound = document.getElementById("sound")
     sound.play()
 }
-
