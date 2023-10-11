@@ -5,5 +5,7 @@ function steve()
     let p = document.createElement("p");
     p.innerText = "Nathan!";
     div.appendChild(p);
+    let sound = document.getElementById("sound")
+    sound.play()
 }
 
