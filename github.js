@@ -6,5 +6,5 @@ function steve()
     div.appendChild(p);
     let a = document.getElementById('audio')
     a.play()
+    console.log('hi')
 }
-
